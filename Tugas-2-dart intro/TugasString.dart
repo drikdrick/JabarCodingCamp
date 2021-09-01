@@ -46,32 +46,32 @@ void main() {
   // print('Seventh Word: ' + seventhWord);
 
   //Soal No 3
-  // print("masukan nama depan :");
-  // final namaDepan = stdin.readLineSync();
-  // print("masukan nama belakang :");
-  // final namaBelakang = stdin.readLineSync();
+  print("masukan nama depan :");
+  String? namaDepan = stdin.readLineSync();
+  print("masukan nama belakang :");
+  String? namaBelakang = stdin.readLineSync();
 
-  // print("nama lengkap anda adalah: \n"+namaDepan!+' '+namaBelakang!);
+  print("nama lengkap anda adalah: \n"+namaDepan!+' '+namaBelakang!);
 
   //Soal No 4
-  int perkalian(a, b) {
-    return a * b;
-  }
+  // int perkalian(a, b) {
+  //   return a * b;
+  // }
 
-  double pembagian(a, b) {
-    return a / b;
-  }
+  // double pembagian(a, b) {
+  //   return a / b;
+  // }
 
-  int penjumlahan(a, b) {
-    return a + b;
-  }
+  // int penjumlahan(a, b) {
+  //   return a + b;
+  // }
 
-  int pengurangan(a, b) {
-    return a - b;
-  }
+  // int pengurangan(a, b) {
+  //   return a - b;
+  // }
 
-  print('perkalian : '+perkalian(5, 10).toString());
-  print('pembagian : '+pembagian(5, 10).toString());
-  print('penjumlahan : '+penjumlahan(5, 10).toString());
-  print('pengurangan : '+pengurangan(5, 10).toString());
+  // print('perkalian : '+perkalian(5, 10).toString());
+  // print('pembagian : '+pembagian(5, 10).toString());
+  // print('penjumlahan : '+penjumlahan(5, 10).toString());
+  // print('pengurangan : '+pengurangan(5, 10).toString());
 }
