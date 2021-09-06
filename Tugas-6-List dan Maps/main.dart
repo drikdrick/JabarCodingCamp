@@ -1,4 +1,6 @@
 //Soal No.1 (Range)
+import 'dart:io';
+
 range(startNum, finishNum) {
   List<int> bilangan = [];
   if (startNum > finishNum) {
@@ -42,12 +44,11 @@ void dataHandling(List input) {
 
 //Soal No. 4 (Balik Kata)
 balikKata(input) {
-  try {
-    var output = String.fromCharCodes(input.runes.toList().reversed);
-    return output;
-  } catch (e) {
-    return 'Terdapat kesalahan, silahkan coba kembali.';
+  var output = new StringBuffer();
+  for(var i = input.length - 1; i >= 0; --i) {
+    output.write(input[i]);
   }
+  return output.toString();
 }
 
 void main(List<String> args) {
