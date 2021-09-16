@@ -3,6 +3,8 @@ import 'package:flutter/services.dart';
 import 'package:tugas12/Tugas12/Telegram.dart';
 import 'package:tugas12/Tugas13/home_screen.dart';
 import 'package:tugas12/Tugas13/login_screen.dart';
+import 'package:tugas12/Tugas14/Models/get_data.dart';
+import 'package:tugas12/Tugas14/Models/post_data.dart';
 
 void main() {
   runApp(const MyApp());
@@ -22,7 +24,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
         fontFamily: 'Poppins',
       ),
-      home: const HomeScreen(),
+      home: const GetDataScreen(),
     );
   }
 }
