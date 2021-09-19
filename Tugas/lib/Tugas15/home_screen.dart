@@ -1,6 +1,5 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:tugas12/Tugas15/drawer_page.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({Key? key}) : super(key: key);
@@ -13,19 +12,6 @@ class _HomeScreenState extends State<HomeScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        backgroundColor: Colors.blue,
-        actions: const [
-          Icon(
-            Icons.search,
-            color: Colors.white,
-          ),
-          SizedBox(
-            width: 15,
-          )
-        ],
-      ),
-      drawer: const drawer_screen(),
       body: Padding(
         padding: const EdgeInsets.all(30),
         child: Column(
