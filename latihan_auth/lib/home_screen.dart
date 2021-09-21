@@ -90,7 +90,10 @@ class _HomeScreenState extends State<HomeScreen> {
                 ],
               ),
             ),
-            ElevatedButton(onPressed: () {}, child: const Text("Logout"))
+            ElevatedButton(
+              onPressed: () {},
+              child: const Text("Logout"),
+            ),
           ],
         ),
       ),
